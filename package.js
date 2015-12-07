@@ -1,6 +1,6 @@
 Package.describe({
   name: 'brewhk:visits-tracker',
-  version: '1.0.0',
+  version: '1.0.1',
   summary: 'A very simple visits tracker',
   git: 'https://github.com/brewhk/visits-tracker.git',
   documentation: 'README.md'
@@ -10,7 +10,7 @@ Package.onUse(function(api) {
   api.versionsFrom('1.2.1');
   api.use('ecmascript');
   api.use(['mongo', 'aldeed:collection2@2.5.0'], 'server');
-  api.use('stevezhu:lodash');
+  api.use('stevezhu:lodash@0.1.0');
   api.use(['templating'], 'client');
   api.addFiles('lib/functions.js');
   api.addFiles('server/defaults.js', 'server');
