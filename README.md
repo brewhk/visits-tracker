@@ -9,9 +9,13 @@ You can group related pages together by giving them a *namespace*, and visits to
 
 ### Usage
 
+Add the package to your application.
+
+    meteor add brewhk:visits-tracker
+
 ##### Client
 
-Visits Tracker provides three functions - `addVisit`, `getVisitsCount`, `getVisitsCountBetween`.
+Visits Tracker provides the `VisitsTracker` object on the client, which carries three functions - `addVisit`, `getVisitsCount`, `getVisitsCountBetween`.
 
 ###### `VisitsTracker.addVisit`
 
