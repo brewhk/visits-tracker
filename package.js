@@ -1,6 +1,6 @@
 Package.describe({
   name: 'brewhk:visits-tracker',
-  version: '1.0.3',
+  version: '1.0.4',
   summary: 'A very simple visits tracker',
   git: 'https://github.com/brewhk/visits-tracker.git',
   documentation: 'README.md'

@@ -8,7 +8,7 @@ Meteor.methods({
 				namespace: namespace,
 				ip: this.connection.clientAddress,
 				timestamp: {
-					$gte: currentTimestamp - process.env.VISIT_TRACKER_SESSION_DURATION
+					$gte: currentTimestamp - VISIT_TRACKER_SESSION_DURATION
 				}
 			});
 

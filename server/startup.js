@@ -4,5 +4,5 @@ Meteor.startup(function () {
 	if(isNaN(sessionDuration)) {
 		sessionDuration = DEFAULT_TRACKER_SESSION_DURATION;
 	}
-	process.env.VISIT_TRACKER_SESSION_DURATION = sessionDuration;
+	this.VISIT_TRACKER_SESSION_DURATION = sessionDuration;
 });
